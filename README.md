@@ -4,6 +4,15 @@
 
 searchgoat is a Python library for querying Cribl Search and returning results as pandas DataFrames. It's the standalone core module—no notebook-specific dependencies.
 
+## How not to use searchgoat (a very clear disclaimer) 
+If you are querying someone else's data (e.g. an employer, client, customer) you should never do anything that violates their policies. 
+ - There are legal compliance and governance requirements
+ - There are security requirements
+ - There are privacy requirements
+ - Data available Cribl Search may not be suitable for the platform you are pulling that data into. Think about it before you do it.
+
+Use this tool with great discretion and always be mindful of your security posture. Don't just trust, verify!
+
 ## Installation
 
 ```bash
