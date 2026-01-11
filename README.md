@@ -16,6 +16,27 @@ Data available to Cribl Search may not be suitable for the platform you are pull
 
 Use this tool with great discretion and always be mindful of your security posture. Don't just trust, verify!
 
+## See a quick demo
+
+To see searchgoat in action (Mac or Linux) 
+
+1) Download and extract the quickstart (Easy Demo) from  https://github.com/JeremiahJRRoss/searchgoat/blob/main/searchgoat-quickstart-easydemo.zip
+2) cd into the directory from your terminal ()
+   ```cd ~/Desktop/searchgoat-quickstart```
+4) make the bash script executable (chmod +x setup.sh)
+   ```chmod +x setup.sh```
+6) run the bash script (./setup.sh)
+   ```./setup.sh```
+8) When prompted, Enter your Cribl Cloud Client ID, Access Token, Org ID, and workspace ID to create a .env file
+9) Run your query
+```
+source venv/bin/activate
+python query.py
+```
+
+    
+
+
 ## Installation
 
 ```bash
